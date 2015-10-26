@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3413511BDEA1910037B4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3413501BDEA1910037B4F4 /* AppDelegate.swift */; };
+		1A3413531BDEA1910037B4F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3413521BDEA1910037B4F4 /* ViewController.swift */; };
+		1A3413561BDEA1910037B4F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3413541BDEA1910037B4F4 /* Main.storyboard */; };
+		1A3413581BDEA1910037B4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3413571BDEA1910037B4F4 /* Assets.xcassets */; };
+		1A3413631BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3413621BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests.swift */; };
+		1A34136E1BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A34136D1BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A34135F1BDEA1910037B4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3413451BDEA1910037B4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A34134C1BDEA1910037B4F4;
+			remoteInfo = PhillyCocoaHeadsTV;
+		};
+		1A34136A1BDEA1910037B4F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3413451BDEA1910037B4F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A34134C1BDEA1910037B4F4;
+			remoteInfo = PhillyCocoaHeadsTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A34134D1BDEA1910037B4F4 /* PhillyCocoaHeadsTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhillyCocoaHeadsTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3413501BDEA1910037B4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A3413521BDEA1910037B4F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A3413551BDEA1910037B4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A3413571BDEA1910037B4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A3413591BDEA1910037B4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A34135E1BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhillyCocoaHeadsTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3413621BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillyCocoaHeadsTVTests.swift; sourceTree = "<group>"; };
+		1A3413641BDEA1910037B4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3413691BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhillyCocoaHeadsTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A34136D1BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillyCocoaHeadsTVUITests.swift; sourceTree = "<group>"; };
+		1A34136F1BDEA1910037B4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A34134A1BDEA1910037B4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A34135B1BDEA1910037B4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3413661BDEA1910037B4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3413441BDEA1910037B4F4 = {
+			isa = PBXGroup;
+			children = (
+				1A34134F1BDEA1910037B4F4 /* PhillyCocoaHeadsTV */,
+				1A3413611BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests */,
+				1A34136C1BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests */,
+				1A34134E1BDEA1910037B4F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A34134E1BDEA1910037B4F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A34134D1BDEA1910037B4F4 /* PhillyCocoaHeadsTV.app */,
+				1A34135E1BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests.xctest */,
+				1A3413691BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A34134F1BDEA1910037B4F4 /* PhillyCocoaHeadsTV */ = {
+			isa = PBXGroup;
+			children = (
+				1A3413501BDEA1910037B4F4 /* AppDelegate.swift */,
+				1A3413521BDEA1910037B4F4 /* ViewController.swift */,
+				1A3413541BDEA1910037B4F4 /* Main.storyboard */,
+				1A3413571BDEA1910037B4F4 /* Assets.xcassets */,
+				1A3413591BDEA1910037B4F4 /* Info.plist */,
+			);
+			path = PhillyCocoaHeadsTV;
+			sourceTree = "<group>";
+		};
+		1A3413611BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3413621BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests.swift */,
+				1A3413641BDEA1910037B4F4 /* Info.plist */,
+			);
+			path = PhillyCocoaHeadsTVTests;
+			sourceTree = "<group>";
+		};
+		1A34136C1BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A34136D1BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests.swift */,
+				1A34136F1BDEA1910037B4F4 /* Info.plist */,
+			);
+			path = PhillyCocoaHeadsTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A34134C1BDEA1910037B4F4 /* PhillyCocoaHeadsTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3413721BDEA1910037B4F4 /* Build configuration list for PBXNativeTarget "PhillyCocoaHeadsTV" */;
+			buildPhases = (
+				1A3413491BDEA1910037B4F4 /* Sources */,
+				1A34134A1BDEA1910037B4F4 /* Frameworks */,
+				1A34134B1BDEA1910037B4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhillyCocoaHeadsTV;
+			productName = PhillyCocoaHeadsTV;
+			productReference = 1A34134D1BDEA1910037B4F4 /* PhillyCocoaHeadsTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A34135D1BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3413751BDEA1910037B4F4 /* Build configuration list for PBXNativeTarget "PhillyCocoaHeadsTVTests" */;
+			buildPhases = (
+				1A34135A1BDEA1910037B4F4 /* Sources */,
+				1A34135B1BDEA1910037B4F4 /* Frameworks */,
+				1A34135C1BDEA1910037B4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3413601BDEA1910037B4F4 /* PBXTargetDependency */,
+			);
+			name = PhillyCocoaHeadsTVTests;
+			productName = PhillyCocoaHeadsTVTests;
+			productReference = 1A34135E1BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A3413681BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3413781BDEA1910037B4F4 /* Build configuration list for PBXNativeTarget "PhillyCocoaHeadsTVUITests" */;
+			buildPhases = (
+				1A3413651BDEA1910037B4F4 /* Sources */,
+				1A3413661BDEA1910037B4F4 /* Frameworks */,
+				1A3413671BDEA1910037B4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A34136B1BDEA1910037B4F4 /* PBXTargetDependency */,
+			);
+			name = PhillyCocoaHeadsTVUITests;
+			productName = PhillyCocoaHeadsTVUITests;
+			productReference = 1A3413691BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A3413451BDEA1910037B4F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Clickable Bliss";
+				TargetAttributes = {
+					1A34134C1BDEA1910037B4F4 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					1A34135D1BDEA1910037B4F4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1A34134C1BDEA1910037B4F4;
+					};
+					1A3413681BDEA1910037B4F4 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1A34134C1BDEA1910037B4F4;
+					};
+				};
+			};
+			buildConfigurationList = 1A3413481BDEA1910037B4F4 /* Build configuration list for PBXProject "PhillyCocoaHeadsTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A3413441BDEA1910037B4F4;
+			productRefGroup = 1A34134E1BDEA1910037B4F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A34134C1BDEA1910037B4F4 /* PhillyCocoaHeadsTV */,
+				1A34135D1BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests */,
+				1A3413681BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A34134B1BDEA1910037B4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3413581BDEA1910037B4F4 /* Assets.xcassets in Resources */,
+				1A3413561BDEA1910037B4F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A34135C1BDEA1910037B4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3413671BDEA1910037B4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3413491BDEA1910037B4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3413531BDEA1910037B4F4 /* ViewController.swift in Sources */,
+				1A3413511BDEA1910037B4F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A34135A1BDEA1910037B4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3413631BDEA1910037B4F4 /* PhillyCocoaHeadsTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3413651BDEA1910037B4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A34136E1BDEA1910037B4F4 /* PhillyCocoaHeadsTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3413601BDEA1910037B4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A34134C1BDEA1910037B4F4 /* PhillyCocoaHeadsTV */;
+			targetProxy = 1A34135F1BDEA1910037B4F4 /* PBXContainerItemProxy */;
+		};
+		1A34136B1BDEA1910037B4F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A34134C1BDEA1910037B4F4 /* PhillyCocoaHeadsTV */;
+			targetProxy = 1A34136A1BDEA1910037B4F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A3413541BDEA1910037B4F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A3413551BDEA1910037B4F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A3413701BDEA1910037B4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		1A3413711BDEA1910037B4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3413731BDEA1910037B4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PhillyCocoaHeadsTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickablebliss.PhillyCocoaHeadsTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A3413741BDEA1910037B4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PhillyCocoaHeadsTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickablebliss.PhillyCocoaHeadsTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A3413761BDEA1910037B4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhillyCocoaHeadsTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickablebliss.PhillyCocoaHeadsTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhillyCocoaHeadsTV.app/PhillyCocoaHeadsTV";
+			};
+			name = Debug;
+		};
+		1A3413771BDEA1910037B4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhillyCocoaHeadsTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickablebliss.PhillyCocoaHeadsTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhillyCocoaHeadsTV.app/PhillyCocoaHeadsTV";
+			};
+			name = Release;
+		};
+		1A3413791BDEA1910037B4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhillyCocoaHeadsTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickablebliss.PhillyCocoaHeadsTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhillyCocoaHeadsTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A34137A1BDEA1910037B4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhillyCocoaHeadsTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clickablebliss.PhillyCocoaHeadsTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhillyCocoaHeadsTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3413481BDEA1910037B4F4 /* Build configuration list for PBXProject "PhillyCocoaHeadsTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3413701BDEA1910037B4F4 /* Debug */,
+				1A3413711BDEA1910037B4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3413721BDEA1910037B4F4 /* Build configuration list for PBXNativeTarget "PhillyCocoaHeadsTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3413731BDEA1910037B4F4 /* Debug */,
+				1A3413741BDEA1910037B4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A3413751BDEA1910037B4F4 /* Build configuration list for PBXNativeTarget "PhillyCocoaHeadsTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3413761BDEA1910037B4F4 /* Debug */,
+				1A3413771BDEA1910037B4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A3413781BDEA1910037B4F4 /* Build configuration list for PBXNativeTarget "PhillyCocoaHeadsTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3413791BDEA1910037B4F4 /* Debug */,
+				1A34137A1BDEA1910037B4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A3413451BDEA1910037B4F4 /* Project object */;
+}
