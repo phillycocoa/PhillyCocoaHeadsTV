@@ -190,6 +190,7 @@
 				TargetAttributes = {
 					1A34134C1BDEA1910037B4F4 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = NLLUB3XG7Q;
 					};
 					1A34135D1BDEA1910037B4F4 = {
 						CreatedOnToolsVersion = 7.1;
@@ -361,6 +362,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -386,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PhillyCocoaHeadsTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clickablebliss.PhillyCocoaHeadsTV;
@@ -398,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PhillyCocoaHeadsTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clickablebliss.PhillyCocoaHeadsTV;
@@ -472,6 +476,7 @@
 				1A3413741BDEA1910037B4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A3413751BDEA1910037B4F4 /* Build configuration list for PBXNativeTarget "PhillyCocoaHeadsTVTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +485,7 @@
 				1A3413771BDEA1910037B4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A3413781BDEA1910037B4F4 /* Build configuration list for PBXNativeTarget "PhillyCocoaHeadsTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +494,7 @@
 				1A34137A1BDEA1910037B4F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
