@@ -2,6 +2,7 @@
   "images" : [
     {
       "idiom" : "tv",
+      "filename" : "lettering.png",
       "scale" : "1x"
     }
   ],
