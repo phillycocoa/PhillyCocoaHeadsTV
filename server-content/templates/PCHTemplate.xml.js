@@ -26,10 +26,18 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <section>
 	  <listItemLockup>
 	    <title>Recent Videos</title>
-	    <decorationLabel>12</decorationLabel>
+	    <decorationLabel>14</decorationLabel>
 	    <relatedContent>
 	      <grid>
 	        <section>
+            
+            <lockup videoURL="http://player.vimeo.com/external/152112429.hd.mp4?s=fe955787df2bb4f8bd14d1b1b264254e1a2a3219&amp;profile_id=119&amp;oauth2_token_id=384186094">
+              <img src="https://i.vimeocdn.com/video/552027908_640x360.jpg?r=pad" width="500" height="282" />
+            </lockup>
+            
+            <lockup videoURL="http://player.vimeo.com/external/149458300.hd.mp4?s=e6efb2a550d5e245f5067294c684413374ed15f3&amp;profile_id=119&amp;oauth2_token_id=384186094">
+              <img src="https://i.vimeocdn.com/video/548697397_640x360.jpg?r=pad" width="500" height="282" />
+            </lockup>
             
             <lockup videoURL="http://player.vimeo.com/external/145747218.hd.mp4?s=744c0d718ab6e3aa5359019e887261e09cae2138&amp;profile_id=119&amp;oauth2_token_id=384186094">
               <img src="https://i.vimeocdn.com/video/543996755_640x360.jpg?r=pad" width="500" height="282" />
